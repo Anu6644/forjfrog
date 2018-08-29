@@ -3,7 +3,7 @@
   <groupId>com.tivo.maven</groupId>
   <artifactId>maven-simple-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <build>
   <plugins>
      <plugin>
         <artifactId>Maven-compiler-plugin</artifactId>
@@ -29,5 +29,6 @@
           </archive>
         </configuration>
      </plugin>
-</plugins>
+</plugins></build>
+  
 </project>
