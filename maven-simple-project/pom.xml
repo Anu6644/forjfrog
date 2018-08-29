@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tivo.maven</groupId>
   <artifactId>maven-simple-project</artifactId>
-  <version>0.0.1-SNAPSHOT-${build.number}</version>
+  <version>0.0.1-SNAPSHOT-BUILD_NUMBER</version>
   <build>
   <plugins>
      <plugin>
@@ -24,7 +24,7 @@
                 <addClasspath>true</addClasspath>
              </manifest>
              <manifestEntries>
-                <Implementation-Version>${build.number}</Implementation-Version>
+                <Implementation-Version>BUILD_NUMBER</Implementation-Version>
              </manifestEntries>
           </archive>
         </configuration>
