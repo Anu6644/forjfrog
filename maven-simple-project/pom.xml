@@ -3,7 +3,7 @@
   <groupId>com.tivo.maven</groupId>
   <artifactId>maven-simple-project</artifactId>
   <version>0.0.1-SNAPSHOT-${BUILD_NUMBER}</version>
- <dependencyManagement>
+ 
  <dependencies>
  <dependency>
         <groupId>com.tivo.maven</groupId>
@@ -11,7 +11,7 @@
         <version>0.0.1-SNAPSHOT-11</version>
 </dependency>
  </dependencies>
- </dependencyManagement>
+
   <build>
   <plugins>
      <plugin>
