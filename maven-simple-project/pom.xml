@@ -8,8 +8,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.tivo.maven</groupId>
-				<artifactId>maven-simple-project</artifactId>
-				<version>0.0.1-SNAPSHOT-${BUILD_NUMBER}</version>			
+				<artifactId>maven-simple-project</artifactId>	
            </dependency>
         </dependencies>
     </dependencyManagement>
